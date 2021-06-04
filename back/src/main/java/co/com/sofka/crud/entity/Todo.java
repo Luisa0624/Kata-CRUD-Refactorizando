@@ -5,6 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
+@Table( name = "Todo")
 public class Todo {
     @Id
     @GeneratedValue
